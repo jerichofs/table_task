@@ -23,4 +23,8 @@ app.use((req, res) =>
   })
 );
 
-app.listen(port, () => console.log("Server is listening on port", port));
+const server = app.listen(port, () =>
+  console.log("Server is listening on port", port)
+);
+
+module.exports = server;
