@@ -3,6 +3,7 @@
 ## Installation and Run
 
 ### Install and run **server**
+> **Note:** The used version of nodejs is 10.15.3
 
 In the root directory (table_task) go to the folder **server** and run the following command:
 
